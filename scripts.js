@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('localData')){
         data = JSON.parse(localStorage.getItem('localData'))
     };
+console.log(data);
 
 
     const renderItemsForUpdate = function(){
